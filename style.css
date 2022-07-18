@@ -1,0 +1,161 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#di {
+    background-image: url(image/istockphoto3.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    width: 500px;
+    height: 200px;
+    margin-top: 60px;
+    margin-left: 450px;
+    padding: 40px;
+    flex-direction: column;
+}
+
+h3::after {
+    content: "";
+    display: inline-block;
+    width: 45px;
+    height: 6px;
+    background-color: black;
+    position: absolute;
+    bottom: -16px;
+    left: 10%;
+    transform: translateX(-50%);
+}
+
+header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bergue {
+    display: flex;
+    position: relative;
+    bottom: 300px;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.berguer1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.choose {
+    position: relative;
+    bottom: 450px;
+    margin-left: 560px
+}
+
+.berguer1 a span {
+    border: none;
+    width: 100px;
+    justify-content: center;
+    background-color: orangered;
+    margin-right: 100px;
+}
+
+main {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#div1 {
+    background-image: url(image/jne.png);
+    width: 500px;
+    height: 190px;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 500px;
+    margin-left: 650px;
+    padding-right: 150px;
+    padding-bottom: 8px;
+}
+
+#div2 {
+    background-image: url(image/istockphoto2.jpg);
+    height: 150px;
+    width: 500px;
+    padding-right: 150px;
+    position: relative;
+    background-repeat: no-repeat;
+    bottom: 487px;
+    margin-left: 650px;
+}
+
+.clas {
+    background-image: url(image/pizza2.jpg);
+    height: 500px;
+    width: 30em;
+    background-repeat: no-repeat;
+    display: flex;
+    margin-left: 60px;
+    margin-top: 40px;
+    padding-right: 50px;
+    ;
+}
+
+#di h1,
+p {
+    color: white;
+}
+
+p {
+    bottom: 20px;
+}
+
+#section1 {
+    /* background-color: #dd975c;*/
+    background-image: url(image/section.jpg);
+    padding-top: 27px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 30px;
+}
+
+a {
+    display: inline;
+    text-decoration: none;
+    color: black;
+}
+
+#com {
+    padding-left: 175px;
+}
+
+#logo {
+    padding-left: 80px;
+    padding-right: 270px;
+}
+
+.cadre {
+    display: inline-flex;
+    border: none;
+    width: 100px;
+    justify-content: center;
+    background-color: brown;
+}
+
+.case {
+    display: inline-flex;
+    border: none;
+    width: 100px;
+    justify-content: center;
+    background-color: orangered;
+}
